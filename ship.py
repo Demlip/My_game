@@ -10,6 +10,13 @@ class Ship():
         self.rect = self.image.get_rect()
         self.rect.midbottom = self.screen_rect.midbottom
 
+        # настройка управления кораблем
+        self.moving_right = False
+
+    def update(self):
+        if self.moving_right:
+            self.rect.x += 1
+
 # отмечает корабль в позиции
     def blitime(self):
         self.screen.blit(self.image, self.rect)
