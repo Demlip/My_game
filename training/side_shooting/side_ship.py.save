@@ -1,0 +1,6 @@
+import sys, pygame
+
+class Side_shooter:
+    def __init___(self): 
+        pygame.init()
+        py
