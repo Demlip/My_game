@@ -11,7 +11,7 @@ class Ship():
         self.rect = self.image.get_rect()
         self.rect.midbottom = self.screen_rect.midbottom
         self.x = float(self.rect.x)
-
+        
         # настройка управления кораблем
         self.moving_right = False
         self.moving_left = False
