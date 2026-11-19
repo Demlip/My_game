@@ -11,8 +11,8 @@ class Blue_Sky:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     sys.exit()
-                self.screen.fill(self.bg_color)
-                pygame.display.flip()
+            self.screen.fill(self.bg_color)
+            pygame.display.flip()
 
 if __name__ == "__main__":
     bl = Blue_Sky()
